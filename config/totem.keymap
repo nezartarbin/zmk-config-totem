@@ -36,6 +36,36 @@
             bindings = <&mo 2>;
             key-positions = <32 37>;
         };
+
+        left_paranthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <12 13>;
+        };
+
+        right_paranthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <16 17>;
+        };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <2 3>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <6 7>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <23 24>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <27 28>;
+        };
     };
 
     macros {
@@ -77,10 +107,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q    &kp Y               &kp O                &kp U                       &kp EQUAL          &kp X      &kp L                &kp D            &kp W            &kp Z
-       &kp C    &kp I               &kp A                &kp E                       &kp MINUS          &kp K      &kp H                &kp T            &kp N            &kp S
-&kp B  &kp SQT  &mt LEFT_GUI COMMA  &mt LEFT_ALT PERIOD  &mt LEFT_CONTROL SEMICOLON  &kp SLASH          &kp J      &mt RIGHT_CONTROL M  &mt RIGHT_ALT G  &mt RIGHT_GUI P  &kp V  &kp F
-                                    &kp TAB              &mt LEFT_SHIFT SPACE        &lt 1 BACKSPACE    &kp ENTER  &kp R                &kp PIPE
+       &kp Q    &kp Y               &kp O                &kp U                       &kp EQUAL      &kp X          &kp L                &kp D            &kp W            &kp Z
+       &kp C    &kp I               &kp A                &kp E                       &kp MINUS      &kp K          &kp H                &kp T            &kp N            &kp S
+&kp B  &kp SQT  &mt LEFT_GUI COMMA  &mt LEFT_ALT PERIOD  &mt LEFT_CONTROL SEMICOLON  &kp SLASH      &kp J          &mt RIGHT_CONTROL M  &mt RIGHT_ALT G  &mt RIGHT_GUI P  &kp V  &kp F
+                                    &kp TAB              &mt LEFT_SHIFT SPACE        &lt 1 LC(W)    &kp BACKSPACE  &kp R                &kp PIPE
             >;
         };
 
@@ -129,10 +159,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans   &kp LEFT_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &bt BT_PRV    &kp F9  &kp F10  &kp F11  &kp F12  &trans
-        &trans   &trans          &kp DOWN_ARROW   &trans           &bt BT_NXT    &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&trans  &kp END  &kp HOME        &kp PRINTSCREEN  &kp INSERT       &kp DELETE    &kp F1  &kp F2   &kp F3   &kp F4   &trans  &bt BT_CLR
-                                 &trans           &trans           &trans        &trans  &trans   &trans
+        &trans  &trans    &trans    &trans     &trans    &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_PRV
+        &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans    &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &trans  &trans    &kp DOWN  &trans     &trans    &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_NXT  &bt BT_CLR
+                          &trans    &trans     &trans    &trans  &trans   &trans
             >;
         };
 
