@@ -143,10 +143,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp PERIOD   &kp LEFT_BRACKET  &kp SLASH      &kp EQUAL  &kp LESS_THAN    &kp GREATER_THAN  &kp MINUS      &kp ASTERISK     &kp RIGHT_BRACKET  &kp CARET
-         &kp N5       &kp N4            &kp N3         &kp N2     &kp N1           &kp N0            &kp N9         &kp N8           &kp N7             &kp N6
-&kp ESC  &kp AT_SIGN  &kp DOLLAR        &kp AMPERSAND  &kp PLUS   &kp LPAR         &kp RPAR          &kp BACKSLASH  &kp EXCLAMATION  &kp PIPE           &kp HASH   &kp PERCENT
-                                        &trans         &trans     &trans           &trans            &trans         &trans
+         &kp AT_SIGN       &kp PERIOD  &kp SLASH      &kp MINUS  &kp ASTERISK    &kp CARET  &kp EQUAL      &kp LESS_THAN    &kp GREATER_THAN  &kp HASH
+         &kp N5            &kp N4      &kp N3         &kp N2     &kp N1          &kp N0     &kp N9         &kp N8           &kp N7            &kp N6
+&kp ESC  &kp LEFT_BRACKET  &kp DOLLAR  &kp AMPERSAND  &kp PLUS   &kp LPAR        &kp RPAR   &kp BACKSLASH  &kp EXCLAMATION  &kp PIPE          &kp RIGHT_BRACKET  &kp PERCENT
+                                       &trans         &trans     &trans          &trans     &kp GRAVE      &trans
             >;
         };
 
