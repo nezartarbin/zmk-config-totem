@@ -69,7 +69,7 @@
 
         return_thumb {
             bindings = <&kp RETURN>;
-            key-positions = <35 34>;
+            key-positions = <27 24>;
         };
 
         qwerty_layer_access {
