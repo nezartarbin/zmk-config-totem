@@ -120,7 +120,7 @@
        &kp Q    &kp Y               &kp O                &kp U                       &kp EQUAL              &kp X          &kp L                &kp D            &kp W            &kp Z
        &kp C    &kp I               &kp A                &kp E                       &kp MINUS              &kp K          &kp H                &kp T            &kp N            &kp S
 &kp B  &kp SQT  &mt LEFT_GUI COMMA  &mt LEFT_ALT PERIOD  &mt LEFT_CONTROL SEMICOLON  &kp SLASH              &kp J          &mt RIGHT_CONTROL M  &mt RIGHT_ALT G  &mt RIGHT_GUI P  &kp V  &kp F
-                                    &kp TAB              &mt LEFT_SHIFT SPACE        &lt 1 LC(BACKSPACE)    &kp BACKSPACE  &kp R                &kp PIPE
+                                    &kp PIPE             &mt LEFT_SHIFT SPACE        &lt 1 LC(BACKSPACE)    &kp BACKSPACE  &kp R                &kp TAB
             >;
         };
 
