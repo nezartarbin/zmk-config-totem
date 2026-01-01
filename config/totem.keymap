@@ -143,10 +143,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp AT_SIGN       &kp PERIOD  &kp SLASH      &kp MINUS  &kp ASTERISK    &kp CARET  &kp EQUAL      &kp LESS_THAN    &kp GREATER_THAN  &kp HASH
-         &kp N5            &kp N4      &kp N3         &kp N2     &kp N1          &kp N0     &kp N9         &kp N8           &kp N7            &kp N6
-&kp ESC  &kp LEFT_BRACKET  &kp DOLLAR  &kp AMPERSAND  &kp PLUS   &kp LPAR        &kp RPAR   &kp BACKSLASH  &kp EXCLAMATION  &kp PIPE          &kp RIGHT_BRACKET  &kp PERCENT
-                                       &trans         &trans     &trans          &trans     &kp GRAVE      &trans
+         &kp GRAVE         &kp PERIOD   &kp SLASH      &kp BACKSLASH    &kp CARET    &kp ASTERISK  &kp EQUAL        &kp LESS_THAN  &kp GREATER_THAN  &kp HASH
+         &kp N5            &kp N4       &kp N3         &kp N2           &kp N1       &kp N0        &kp N9           &kp N8         &kp N7            &kp N6
+&kp ESC  &kp LEFT_BRACKET  &kp AT_SIGN  &kp AMPERSAND  &kp EXCLAMATION  &kp LPAR     &kp RPAR      &kp MINUS        &kp PLUS       &kp PERCENT       &kp RIGHT_BRACKET  &kp DOLLAR
+                                        &trans         &trans           &trans       &trans        &kp RIGHT_SHIFT  &kp SQT
             >;
         };
 
@@ -178,17 +178,17 @@
 
         qwerty {
             bindings = <
-                  &kp T  &kp Q           &kp X    &kp E           &kp R          &kp Y          &kp U  &kp I      &kp O                 &kp P
-                  &kp G  &kp A           &kp W    &kp D           &kp F          &kp H          &kp J  &kp K      &kp L                 &kp SEMICOLON
-&kp LEFT_CONTROL  &kp B  &mt LEFT_ALT Z  &kp S    &kp C           &kp V          &kp N          &kp M  &kp COMMA  &mt RIGHT_GUI PERIOD  &kp SLASH      &kp ENTER
-                                         &kp TAB  &kp LEFT_SHIFT  &lt 4 SPACE    &kp BACKSPACE  &none  &none
+                  &kp T  &kp Q       &kp X             &kp E           &kp R          &kp Y          &kp U  &kp I                &kp O                 &kp P
+                  &kp G  &kp A       &kp W             &kp D           &kp F          &kp H          &kp J  &kp K                &kp L                 &kp SEMICOLON
+&kp LEFT_CONTROL  &kp B  &mt Z LGUI  &mt LEFT_ALT S    &kp C           &kp V          &kp N          &kp M  &mt RIGHT_ALT COMMA  &mt RIGHT_GUI PERIOD  &kp SLASH      &kp ENTER
+                                     &kp SINGLE_QUOTE  &kp LEFT_SHIFT  &lt 4 SPACE    &kp BACKSPACE  &none  &kp TAB
             >;
         };
 
         game_nums {
             bindings = <
-        &kp N0  &kp N1  &kp N2  &kp N3  &kp N4    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &kp N5    &trans  &trans  &trans  &trans  &trans
+        &trans  &kp N1  &kp N2  &kp N3  &kp N4    &trans  &trans  &trans  &trans  &trans
+        &kp N0  &trans  &trans  &trans  &kp N5    &trans  &trans  &trans  &trans  &trans
 &trans  &kp N9  &kp N8  &trans  &kp N7  &kp N6    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
